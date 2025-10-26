@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Types - WikiAI</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h1>Wiki<span>AI</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li class="active"><a href="types.html"><i class="fas fa-project-diagram"></i> AI Types</a></li>
+                <li><a href="applications.html"><i class="fas fa-laptop-code"></i> Applications</a></li>
+                <li><a href="history.html"><i class="fas fa-history"></i> History</a></li>
+                <li><a href="ethics.html"><i class="fas fa-balance-scale"></i> Ethics</a></li>
+                <li><a href="future.html"><i class="fas fa-rocket"></i> Future</a></li>\n                <li><a href="latest.html"><i class="fas fa-newspaper"></i> Latest in AI</a></li>
+                <li><a href="latest.html"><i class="fas fa-newspaper"></i> Latest in AI</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search AI topics...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </header>
+
+            <div class="page-header">
+                <h1>Types of <span class="highlight">Artificial Intelligence</span></h1>
+                <p>Explore the different categories and classifications of AI systems</p>
+            </div>
+
+            <!-- Tab Navigation -->
+            <div class="tab-navigation">
+                <button class="tab-button active" data-tab="narrow-ai">Narrow AI</button>
+                <button class="tab-button" data-tab="general-ai">General AI</button>
+                <button class="tab-button" data-tab="machine-learning">Machine Learning</button>
+                <button class="tab-button" data-tab="deep-learning">Deep Learning</button>
+                <button class="tab-button" data-tab="nlp">Natural Language Processing</button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content-container">
+                <!-- Narrow AI -->
+                <div id="narrow-ai" class="tab-content active">
+                    <h2>Narrow AI (Weak AI)</h2>
+                    <div class="content-image" style="background-image: url('../images/narrow-ai.jpg')"></div>
+                    <p>Narrow AI, also known as Weak AI, refers to artificial intelligence systems designed and trained to perform specific tasks. These systems excel at their designated functions but lack the broader cognitive abilities of humans.</p>
+                    
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li><strong>Task-specific:</strong> Designed to solve particular problems</li>
+                        <li><strong>Limited scope:</strong> Cannot transfer learning to different domains</li>
+                        <li><strong>No self-awareness:</strong> Operates within programmed parameters</li>
+                        <li><strong>Data-dependent:</strong> Performance relies on quality of training data</li>
+                    </ul>
+                    
+                    <h3>Examples of Narrow AI</h3>
+                    <div class="example-grid">
+                        <div class="example-item">
+                            <div class="example-icon"><i class="fas fa-microphone"></i></div>
+                            <h4>Virtual Assistants</h4>
+                            <p>Siri, Alexa, and Google Assistant can understand voice commands and perform specific tasks.</p>
+                        </div>
+                        <div class="example-item">
+                            <div class="example-icon"><i class="fas fa-car"></i></div>
+                            <h4>Self-driving Cars</h4>
+                            <p>Tesla Autopilot and Waymo use AI to navigate roads and make driving decisions.</p>
+                        </div>
+                        <div class="example-item">
+                            <div class="example-icon"><i class="fas fa-chess-knight"></i></div>
+                            <h4>Game AI</h4>
+                            <p>Chess engines like DeepBlue and AlphaZero excel at specific games but cannot play others.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- General AI -->
+                <div id="general-ai" class="tab-content">
+                    <h2>General AI (Strong AI)</h2>
+                    <div class="content-image" style="background-image: url('../images/general-ai.jpg')"></div>
+                    <p>General AI, or Strong AI, refers to a theoretical form of artificial intelligence with human-like cognitive abilities. Unlike Narrow AI, General AI would be capable of understanding, learning, and applying knowledge across diverse domains.</p>
+                    
+                    <h3>Key Characteristics</h3>
+                    <ul>
+                        <li><strong>Versatile intelligence:</strong> Can perform any intellectual task a human can</li>
+                        <li><strong>Transfer learning:</strong> Applies knowledge from one domain to another</li>
+                        <li><strong>Adaptability:</strong> Adjusts to new situations without specific programming</li>
+                        <li><strong>Self-improvement:</strong> Can enhance its own capabilities</li>
+                    </ul>
+                    
+                    <h3>Current Status</h3>
+                    <p>General AI remains theoretical and has not yet been achieved. Most experts believe we are decades away from creating true General AI, though significant progress is being made in expanding the capabilities of AI systems.</p>
+                    
+                    <div class="info-box">
+                        <h4>The Turing Test</h4>
+                        <p>Proposed by Alan Turing in 1950, this test evaluates a machine's ability to exhibit intelligent behavior indistinguishable from a human. While some systems have passed limited versions of the test, none have demonstrated true general intelligence.</p>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div id="machine-learning" class="tab-content">
+                    <h2>Machine Learning</h2>
+                    <div class="content-image" style="background-image: url('../images/machine-learning.jpg')"></div>
+                    <p>Machine Learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. It focuses on developing algorithms that can access data, learn from it, and make predictions or decisions.</p>
+                    
+                    <h3>Types of Machine Learning</h3>
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <h4>Supervised Learning</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Algorithms learn from labeled training data to make predictions or decisions. Examples include:</p>
+                            <ul>
+                                <li>Classification (spam detection, image recognition)</li>
+                                <li>Regression (price prediction, weather forecasting)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <h4>Unsupervised Learning</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Algorithms find patterns in unlabeled data. Examples include:</p>
+                            <ul>
+                                <li>Clustering (customer segmentation, anomaly detection)</li>
+                                <li>Association (market basket analysis)</li>
+                                <li>Dimensionality reduction (feature extraction)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <h4>Reinforcement Learning</h4>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Algorithms learn optimal actions through trial and error with rewards and penalties. Examples include:</p>
+                            <ul>
+                                <li>Game playing (AlphaGo, OpenAI Five)</li>
+                                <li>Robotics (autonomous navigation)</li>
+                                <li>Resource management (data center optimization)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <h3>Popular Machine Learning Algorithms</h3>
+                    <ul class="algorithm-list">
+                        <li>Linear Regression</li>
+                        <li>Logistic Regression</li>
+                        <li>Decision Trees</li>
+                        <li>Random Forests</li>
+                        <li>Support Vector Machines</li>
+                        <li>K-Means Clustering</li>
+                        <li>Neural Networks</li>
+                    </ul>
+                </div>
+
+                <!-- Deep Learning -->
+                <div id="deep-learning" class="tab-content">
+                    <h2>Deep Learning</h2>
+                    <div class="content-image" style="background-image: url('../images/deep-learning.jpg')"></div>
+                    <p>Deep Learning is a specialized subset of machine learning that uses neural networks with many layers (hence "deep") to analyze various factors of data. It is particularly powerful for processing unstructured data like images, text, and audio.</p>
+                    
+                    <h3>Neural Network Architecture</h3>
+                    <div class="diagram">
+                        <img src="../images/neural-network-diagram.svg" alt="Neural Network Architecture">
+                    </div>
+                    
+                    <h3>Types of Deep Learning Networks</h3>
+                    <div class="card-container">
+                        <div class="info-card">
+                            <h4>Convolutional Neural Networks (CNNs)</h4>
+                            <p>Specialized for processing grid-like data such as images. CNNs use convolutional layers to detect features and patterns.</p>
+                            <p><strong>Applications:</strong> Image recognition, video analysis, medical imaging</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <h4>Recurrent Neural Networks (RNNs)</h4>
+                            <p>Designed for sequential data with memory of previous inputs. RNNs can process variable-length sequences.</p>
+                            <p><strong>Applications:</strong> Speech recognition, language modeling, time series prediction</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <h4>Transformers</h4>
+                            <p>Architecture that uses self-attention mechanisms to process sequential data in parallel, overcoming limitations of RNNs.</p>
+                            <p><strong>Applications:</strong> Language translation, text generation, BERT, GPT models</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <h4>Generative Adversarial Networks (GANs)</h4>
+                            <p>Two neural networks (generator and discriminator) compete to create authentic-looking synthetic data.</p>
+                            <p><strong>Applications:</strong> Image generation, deepfakes, data augmentation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Natural Language Processing -->
+                <div id="nlp" class="tab-content">
+                    <h2>Natural Language Processing (NLP)</h2>
+                    <div class="content-image" style="background-image: url('../images/nlp.jpg')"></div>
+                    <p>Natural Language Processing is a field of AI that focuses on the interaction between computers and human language. It enables machines to read, understand, and derive meaning from human languages.</p>
+                    
+                    <h3>Core NLP Tasks</h3>
+                    <ul>
+                        <li><strong>Text Classification:</strong> Categorizing text into predefined groups</li>
+                        <li><strong>Named Entity Recognition:</strong> Identifying entities like people, places, organizations</li>
+                        <li><strong>Sentiment Analysis:</strong> Determining emotional tone behind text</li>
+                        <li><strong>Machine Translation:</strong> Converting text from one language to another</li>
+                        <li><strong>Question Answering:</strong> Providing answers to natural language questions</li>
+                        <li><strong>Text Summarization:</strong> Creating concise summaries of longer texts</li>
+                    </ul>
+                    
+                    <h3>Evolution of NLP Models</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Pre-2013</div>
+                            <div class="timeline-content">
+                                <h4>Rule-based Systems</h4>
+                                <p>Hand-crafted rules and dictionaries for language processing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2013-2018</div>
+                            <div class="timeline-content">
+                                <h4>Word Embeddings</h4>
+                                <p>Word2Vec, GloVe - representing words as vectors in semantic space</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2018-2019</div>
+                            <div class="timeline-content">
+                                <h4>Pre-trained Language Models</h4>
+                                <p>BERT, ELMo - contextual word representations</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2019-Present</div>
+                            <div class="timeline-content">
+                                <h4>Large Language Models</h4>
+                                <p>GPT-3, GPT-4, LLaMA - massive models with billions of parameters</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>Applications of NLP</h3>
+                    <div class="example-grid">
+                        <div class="example-item">
+                            <div class="example-icon"><i class="fas fa-robot"></i></div>
+                            <h4>Chatbots</h4>
+                            <p>Virtual assistants that can understand and respond to user queries</p>
+                        </div>
+                        <div class="example-item">
+                            <div class="example-icon"><i class="fas fa-language"></i></div>
+                            <h4>Translation</h4>
+                            <p>Real-time translation services like Google Translate</p>
+                        </div>
+                        <div class="example-item">
+                            <div class="example-icon"><i class="fas fa-file-alt"></i></div>
+                            <h4>Content Creation</h4>
+                            <p>AI-powered writing assistants and content generators</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About WikiAI</h3>
+                <p>A comprehensive platform dedicated to artificial intelligence knowledge, research, and applications.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="types.html">AI Types</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 WikiAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
